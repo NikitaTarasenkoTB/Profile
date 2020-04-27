@@ -1,0 +1,24 @@
+.hero__content {
+	/*padding-top: 118px;*/
+	padding-top: 12.61%;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 850px) {
+	.hero__content {
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.hero__content {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.hero__content {
+		padding-top: 21.51%;
+	}
+}

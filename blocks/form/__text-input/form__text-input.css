@@ -1,0 +1,47 @@
+@import url("_icon/form__text-input_icon_man.css");
+@import url("_icon/form__text-input_icon_phone.css");
+
+.form__text-input {
+/*	width: 380px;
+	height: 70px;*/
+	width: 83.34%;
+	height: 70px;
+
+	background-color: #F8F8F8;
+	box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: 27px 24px;
+	padding-left: 52px;
+	/*margin-top: 30px;*/
+	margin-top: 6.58%;
+}
+
+.form__text-input:last-of-type {
+	/*margin-top: 20px;*/
+	margin-top: 4.39%;
+}
+
+.form__text-input:focus {
+	outline-color: #FFC41D;
+}
+
+
+@media screen and (max-width: 768px) {
+	.form__text-input {
+		height: 64px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.form__text-input {
+		margin-top: 8.58%;
+		font-size: 14px;
+	}
+
+	.form__text-input:last-of-type {
+	/*margin-top: 20px;*/
+		margin-top: 8.39%;
+	}
+}

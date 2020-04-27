@@ -1,0 +1,9 @@
+@import url("__title/karusel__title.css");
+@import url("__main-block/karusel__main-block.css");
+
+.karusel {
+    background-color: white;
+    color:#141F35;
+    padding-top: 71px;
+    padding-bottom: 92px;
+}

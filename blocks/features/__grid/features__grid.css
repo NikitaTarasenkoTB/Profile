@@ -1,0 +1,12 @@
+.features__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
+	grid-column-gap: 25px;
+	grid-row-gap: 71px;
+}
+
+@media screen and (max-width: 400px) {
+	.features__grid {
+		grid-row-gap: 36px;
+	}
+}

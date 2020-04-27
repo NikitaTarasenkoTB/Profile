@@ -1,0 +1,15 @@
+.hero__title {
+	margin: 0;
+	color: #FFBB01;
+	font-size: 24px;
+	/*margin-top: 34px;*/
+	margin-top: 7.91%;
+}
+
+@media screen and (max-width: 400px) {
+	.hero__title {
+		font-size: 16px;
+		line-height: 27px;
+		margin-top: 5.91%;
+	}
+}

@@ -1,0 +1,19 @@
+.form__button {
+	/*margin-top: 28px;*/
+	margin-top: 6.14%;
+
+	width: 83.34%;
+	height: 73px;
+}
+
+@media screen and (max-width: 768px) {
+	.form__button {
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.form__button {
+		margin-top: 12.14%;
+	}
+}

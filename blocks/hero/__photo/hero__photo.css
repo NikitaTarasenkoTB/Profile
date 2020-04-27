@@ -1,0 +1,23 @@
+.hero__photo {
+	background-image: url("../../../images/photo.png");
+	min-width: 38.21%;
+	padding-bottom: 38.21%;
+	height: 0;
+	background-color: white;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: 11px solid white;
+	align-self: top;
+	cursor: pointer;
+
+	transition: transform .1s linear;
+}
+
+@media screen and (max-width: 400px) {
+	.hero__photo {
+		border: 3px solid white;
+		min-width: 40.21%;
+		padding-bottom: 40.21%;
+	}
+}

@@ -1,0 +1,18 @@
+.form__title {
+	margin: 0;
+	width: 83.34%;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	/*margin-top: 47px;*/
+	margin-top: 10.31%;
+}
+
+@media screen and (max-width: 400px) {
+	.form__title {
+		font-size: 15px;
+		line-height: 21px;
+		width: 87.34%;
+		margin-top: 15.31%;
+	}
+}

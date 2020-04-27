@@ -1,0 +1,13 @@
+.links__item {
+	margin-right: 20.66px;
+}
+
+.links__item:last-of-type {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 400px) {
+	.links__item {
+		margin-right: 13px;
+	}
+}

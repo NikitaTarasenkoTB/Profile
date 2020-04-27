@@ -1,0 +1,17 @@
+@import url("__title/hero__title.css");
+@import url("__name/hero__name.css");
+@import url("__text/hero__text.css");
+@import url("__content/hero__content.css");
+@import url("__photo/hero__photo.css");
+@import url("__button/hero__button.css");
+@import url("__main/hero__main.css");
+
+.hero {
+	padding-bottom: 66px;
+}
+
+@media screen and (max-width: 400px) {
+	.hero {
+	padding-bottom: 43px;
+}
+}

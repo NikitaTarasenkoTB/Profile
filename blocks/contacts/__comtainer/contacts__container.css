@@ -1,0 +1,11 @@
+.contacts__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+	.contacts__container {
+		flex-direction: column;
+		align-items: center;
+	}
+}

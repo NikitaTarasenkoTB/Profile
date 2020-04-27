@@ -1,0 +1,28 @@
+.wrapper {
+	max-width: calc(1280px - (172px + 172px));
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+	.wrapper {
+		max-width: calc(100% - (172px + 172px));
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	.wrapper {
+		max-width: calc(100% - (100px + 100px));
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.wrapper {
+		max-width: calc(100% - (50px + 50px));
+	}
+}
+
+@media screen and (max-width:400px) {
+	.wrapper {
+		max-width: calc(100% - (27px + 27px));
+	}
+}

@@ -1,0 +1,11 @@
+.links__image {
+	width: 20px;
+	height: 20px;
+}
+
+@media screen and (max-width: 320px) {
+	.links__image {
+		width: 16px;
+		height: 16px;
+	}
+}

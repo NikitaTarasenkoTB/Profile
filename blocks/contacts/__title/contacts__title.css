@@ -1,0 +1,15 @@
+.contacts__title {
+	margin-bottom: 93px;
+}
+
+@media screen and (max-width: 650px) {
+	.contacts__title {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.contacts__title {
+		margin-bottom: 61px;
+	}
+}

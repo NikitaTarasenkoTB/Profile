@@ -1,0 +1,16 @@
+.features__title {
+	margin-bottom: 84px;
+}
+
+@media screen and (max-width: 650px) {
+	.features__title {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.features__title {
+		text-align: left;
+		margin-bottom: 60px;
+	}
+}

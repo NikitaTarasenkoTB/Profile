@@ -1,0 +1,4 @@
+.karusel__main-block {
+    display: flex;
+    justify-content: space-between;
+}

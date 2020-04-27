@@ -1,0 +1,19 @@
+.arrow {
+    width: 30px;
+    height: auto;
+    opacity: .2;
+    transition: opacity .2s linear;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    opacity: .5;
+}
+
+.arrow:first-of-type {
+    margin-right: 20px;
+}
+
+.arrow:last-of-type {
+    margin-left: 20px;
+}

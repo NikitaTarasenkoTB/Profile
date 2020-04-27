@@ -1,0 +1,21 @@
+@import url("__title/features__title.css");
+@import url("__grid/features__grid.css");
+@import url("__subheading/features__subheading.css");
+@import url("__text/features__text.css");
+@import url(__grid-element/features__grid-element.css);
+
+.features {
+	--dark-color: rgb(20, 31, 53);
+	--light-color: rgb(42, 150, 145);
+	padding-top: 71px;
+	padding-bottom: 92px;
+	background-color: var(--dark-color);
+	transition: background-color .3s ease-in-out;
+}
+
+@media screen and (max-width: 400px) {
+	.features {
+		padding-top: 62px;
+		padding-bottom: 64px;
+	}
+}

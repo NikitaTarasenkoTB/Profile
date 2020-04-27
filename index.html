@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Protfolio</title>
+	<link rel="stylesheet" href="vender/normalize.css">
+	<link rel="stylesheet" href="pages/index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+</head>
+<body class="page">
+	<section class="hero">
+		<div class="wrapper">
+			<div class="header">
+				<img src="images/logo1.png" alt="Логотип" class="logo">
+				<ul class="links">
+					<li class="links__item"><a class="hover-link" href="#"><img src="images/github.svg" alt="Гитхаб лого" class="links__image"></a></li>
+					<li class="links__item"><a class="hover-link" href="#"><img src="images/twitter.svg" alt="Твитер лого" class="links__image"></a></li>
+					<li class="links__item"><a class="hover-link" href="#"><img src="images/instagram.svg" alt="Инстаграм лого" class="links__image"></a></li>
+					<li class="links__item"><a class="hover-link" href="#"><img src="images/facebook.svg" alt="Фейсбук лого" class="links__image"></a></li>
+				</ul>
+			</div>
+			<div class="hero__content">
+				<div class="hero__main">
+					<h1 class="hero__title">Фрилансер</h1>
+					<h2 class="hero__name">Тарасенко Никита</h2>
+					<p class="hero__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+					<a class="anchor-to-contacts" href="#contacts">
+						<button type="button" class="button hero__button"><span class="button__text">Бесплатная консультация</span></button>
+					</a>
+				</div>
+				<div class="hero__photo"></div>
+			</div>
+		</div>
+	</section>
+
+	<div class="color-changer">
+		<form name = "colorChangerForm" class="color-changer__form">
+			<p class="color-changer__text">Введите цвета в формате <i>RGB</i> или <i>HEX</i></p>
+			<input type="text" name="pageColor" class="color-changer__input-color" placeholder="Цвет верхней части страницы">
+			<input type="text" name="featuresColor" class="color-changer__input-color" placeholder="Цвет средней части страницы">
+			<button type="button" class="color-changer__button button">Установить цвета</button>
+		</form>
+	</div>
+
+	<section class="features">
+		<div class="wrapper">
+			<h2 class="section-title features__title">Со мной удобно работать</h2>
+			<div class="features__grid">
+				<div class="features__grid-element">
+					<img src="images/feater_image1.svg" alt="Иконка свойста 1" class="features__icon">
+					<h3 class="section-subheading features__subheading">По договору</h3>
+					<p class="features__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+				</div>
+				<div class="features__grid-element">
+					<img src="images/feater_image2.svg" alt="Иконка свойста 2" class="features__icon">
+					<h3 class="section-subheading features__subheading">Точно в срок</h3>
+					<p class="features__text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+				</div>
+				<div class="features__grid-element">
+					<img src="images/feater_image3.svg" alt="Иконка свойста 3" class="features__icon">
+					<h3 class="section-subheading features__subheading">Ценник под вас</h3>
+					<p class="features__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+				</div>
+				<div class="features__grid-element">
+					<img src="images/feater_image4.svg" alt="Иконка свойста 4" class="features__icon">
+					<h3 class="section-subheading features__subheading">Премежуточные итоги</h3>
+					<p class="features__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+				</div>
+				<div class="features__grid-element">
+					<img src="images/feater_image5.svg" alt="Иконка свойста 5" class="features__icon">
+					<h3 class="section-subheading features__subheading">Хостинг и домен </h3>
+					<p class="features__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+				</div>
+				<div class="features__grid-element">
+					<img src="images/feater_image6.svg" alt="Иконка свойста 6" class="features__icon">
+					<h3 class="section-subheading features__subheading">Не брошу после сдачи</h3>
+					<p class="features__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="karusel">
+		<div class="wrapper">
+			<h2 class="section-title karusel__title">Навыки</h2>
+			<div class="karusel__main-block">
+				<img src="images/arrow-left.svg" alt="" class="arrow">
+				<div class="cards">
+					<ul class="cards__list">
+						<li class="cards__item">
+							<img src="images/HTML5-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, qui? Consectetur officiis vel aliquam! Temporibus unde sit totam sint quasi esse minima hic repudiandae vero, nam omnis vitae ullam consequuntur!</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/CSS3-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/js-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/react-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/webpack-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/git-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/bash-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+						<li class="cards__item">
+							<img src="images/design-icon.png" alt="" class="cards__image">
+							<p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti adipisci ipsa ad! Veniam aspernatur voluptates beatae sequi dolorem ex et possimus nemo corrupti, doloribus facilis consequatur voluptatum, nulla incidunt quibusdam.</p>
+						</li>
+					</ul>
+				</div>
+				<img src="images/arrow-right.svg" alt="" class="arrow">
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="wrapper">
+			<h2 class="section-title contacts__title">Свяжитесь со&nbsp;мной</h2>
+			<div class="contacts__container">
+				<form action="" class="form">
+					<h3 class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+					<input type="text" class="form__text-input form__text-input_icon_man" placeholder="Ваше имя">
+					<input type="text" class="form__text-input form__text-input_icon_phone" placeholder="Ваше телефон">
+					<button type="button" class="button form__button"><span class="button__text">Бесплатная консультация</span></button>
+				</form>
+				<div class="contacts__grid">
+					<div class="contacts__item">
+						<h3 class="section-subheading">Телефон</h3>
+						<p class="contacts__text">+7 999 123 45 67</p>
+					</div>
+					<div class="contacts__item">
+						<h3 class="section-subheading">Почта</h3>
+						<p class="contacts__text">example@gmail.com</p>
+					</div>
+					<div class="contacts__item">
+						<h3 class="section-subheading">Соцсети</h3>
+						<div class="contacts__social">
+							<p class="contacts__text"><a href="#" class="hover-link hover-link_color_white">Telegram</a></p>
+							<p class="contacts__text"><a href="#" class="hover-link hover-link_color_white">Vkontakte</a></p>
+							<p class="contacts__text"><a href="#" class="hover-link hover-link_color_white">Facebook</a></p>
+						</div>
+					</div>
+					<ul class="links contacts__item">
+						<li class="links__item"><a class="hover-link" href="#"><img src="images/github.svg" alt="Гитхаб лого" class="links__image"></a></li>
+						<li class="links__item"><a class="hover-link" href="#"><img src="images/twitter.svg" alt="Твитер лого" class="links__image"></a></li>
+						<li class="links__item"><a class="hover-link" href="#"><img src="images/instagram.svg" alt="Инстаграм лого" class="links__image"></a></li>
+						<li class="links__item"><a class="hover-link" href="#"><img src="images/facebook.svg" alt="Фейсбук лого" class="links__image"></a></li>
+					</ul>
+					<p class="contacts__confid"><a href="#" class="hover-link hover-link_color_grey">Политика конфиденциальности</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="script/script.js"></script>
+<script src="script/karusel.js"></script>
+<script src="script/theme.js"></script>
+</html>

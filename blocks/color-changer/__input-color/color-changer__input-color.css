@@ -1,0 +1,14 @@
+.color-changer__input-color {
+	width: 75%;
+	height: 40px;
+	background-color: #F8F8F8;
+	box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.color-changer__input-color:focus {
+	outline-color: #FFC41D;
+}

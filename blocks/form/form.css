@@ -1,0 +1,43 @@
+@import url("__title/form__title.css");
+@import url("__text-input/form__text-input.css");
+@import url("__button/form__button.css");
+
+.form {
+/*	min-width: 456px;
+	min-height: 456px;*/
+	width: 48.72%;
+	height: 100%;
+	padding-bottom: 6%;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: -5px 5px 0 #FFC41D;
+}
+
+@media screen and (max-width: 650px) {
+	.form {
+		width: 75.75%;
+		padding-bottom: 11%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.form {
+		width: 85.75%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.form {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.form {
+		padding-bottom: 19%;
+	}
+}

@@ -1,0 +1,14 @@
+.button__text {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1B2944;
+}
+
+@media screen and (max-width: 400px) {
+	.button__text {
+		font-size: 10px;
+		line-height: 12px;
+	}
+}

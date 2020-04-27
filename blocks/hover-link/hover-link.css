@@ -1,0 +1,12 @@
+@import url("_color/hover-link_color_white.css");
+@import url("_color/hover-link_color_grey.css");
+
+.hover-link {
+	display: flex;
+	text-decoration: none;
+	transition: opacity .2s linear;
+}
+
+.hover-link:hover {
+	opacity: .5;
+}

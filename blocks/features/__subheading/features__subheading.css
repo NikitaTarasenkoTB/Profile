@@ -1,0 +1,16 @@
+.features__subheading {
+	margin-top: 13px;
+}
+
+@media screen and (max-width: 640px) {
+	.features__subheading {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.features__subheading {
+		text-align: left;
+		margin-top: 13px;
+	}
+}

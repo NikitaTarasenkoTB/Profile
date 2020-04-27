@@ -1,0 +1,14 @@
+.hero__main {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 650px) {
+	.hero__main {
+		align-self: stretch;
+		order: 2;
+		margin-right: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

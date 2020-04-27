@@ -1,0 +1,17 @@
+@import url("../blocks/page/page.css");
+@import url("../blocks/wrapper/wrapper.css");
+@import url("../blocks/hero/hero.css");
+@import url("../blocks/links/links.css");
+@import url("../blocks/hover-link/hover-link.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-subheading/section-subheading.css");
+@import url("../blocks/features/features.css");
+@import url("../blocks/form/form.css");
+@import url("../blocks/contacts/contacts.css");
+@import url("../blocks/karusel/karusel.css");
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/arrow/arrow.css");
+@import url("../blocks/color-changer/color-changer.css");
